@@ -6,8 +6,8 @@ let gameOver = false;
 const gameBoard = document.getElementById('game-board');
 function main(currentTime){
     if(gameOver){
-        if(confirm('you lost, press ok to restart')){
-            window.location='/SnakeGame-HTML-CSS-JS'
+        if(confirm('you lost, prehss ok to restart')){
+            location.reload();
         }
         return
     }
